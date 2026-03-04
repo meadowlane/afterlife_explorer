@@ -470,13 +470,20 @@ export default function App() {
 const DenominationSection: FC<{ denom: Denomination; onSelectRealm: (realm: DetailedRealm) => void }> = ({ denom, onSelectRealm }) => {
     const nameMap: Record<string, string> = {
         'Heaven': 'christian-heaven',
+        'Hell': 'christian-hell',
         'Purgatory': 'purgatory',
         'Jannah (Paradise)': 'jannah',
+        'Jannah': 'jannah',
+        'Jahannam (Hell)': 'jahannam',
+        'Jahannam': 'jahannam',
         'Naraka (Hell)': 'naraka',
         'Moksha': 'moksha',
         'Nirvana': 'moksha',
+        'Svarga (Heaven)': 'svarga',
         'Aaru (Field of Reeds)': 'aaru',
-        'Valhalla': 'valhalla'
+        'Duat': 'duat',
+        'Valhalla': 'valhalla',
+        'Folkvangr': 'folkvangr',
     };
 
     const getDetailedRealm = (realmName: string) => {

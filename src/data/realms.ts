@@ -293,6 +293,102 @@ export const detailedRealms: DetailedRealm[] = [
         imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/8/85/Hel-Johannes_Gehrts.jpg'
     },
     {
+        id: 'jahannam',
+        name: 'Jahannam (Hell)',
+        religion: 'Islam',
+        type: 'punishment',
+        shortDescription: 'A blazing, multi-layered abyss of fire and torment for the wicked.',
+        vividDescription: 'A vast pit of roaring fire with seven descending gates, each reserved for a different category of sinner. Its heat is said to be seventy times more intense than earthly fire. The damned wear garments of liquid tar, drink boiling water and pus, and eat from the thorny Zaqqum tree whose fruit is like the heads of devils. The guardians are nineteen terrible angels (the Zabaniyya) under the archangel Malik, who does not smile.',
+        experience: 'Unrelenting physical and spiritual torment calibrated to each soul\'s sins. Skin is burned away and then regenerated so the agony never dulls. The damned cry out for death but are denied it. Those condemned for finite sins may eventually be released through God\'s mercy; only the most hardened disbelievers and hypocrites remain eternally. The sounds of its roaring and sighing can be heard from an immense distance.',
+        entryCriteria: [
+            'Dying as a persistent disbeliever (Kafir) who rejected God\'s signs despite witnessing them.',
+            'Hypocrisy (Nifaq) — outward profession of faith concealing inner disbelief.',
+            'Grave sins (murder, usury, oppression) without repentance, potentially leading to temporary residence.'
+        ],
+        quote: { text: "Indeed, those who disbelieve in Our verses — We will drive them into a Fire. Every time their skins are roasted through, We will replace them with other skins so they may taste the punishment.", source: "Quran 4:56" },
+        imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/c/ce/Idris_sees_Paradise_and_Hell%2C_Istanbul%2C_Turkey%2C_Topkapi_Sarayi_M%C3%BCzesi%2C_B._249%2C_fol._16b.jpg'
+    },
+    {
+        id: 'svarga',
+        name: 'Svarga (Heaven)',
+        religion: 'Hinduism',
+        type: 'paradise',
+        shortDescription: 'The celestial paradise of Indra, a temporary reward for accumulated good karma.',
+        vividDescription: 'A resplendent realm located above Mount Meru, ruled by Indra, King of the Gods. The sky is always golden, and the air is perfumed with divine flowers. Celestial musicians (Gandharvas) play continuously, and the Apsaras — heavenly dancing women of extraordinary beauty — entertain the blessed. The Kalpavriksha (wish-fulfilling tree) grows here, capable of granting any desire. The Parijata flower blooms eternally, its fragrance carrying across the three worlds.',
+        experience: 'An existence of supreme pleasure and divine company. The righteous soul enjoys the company of gods, heroes, and ancestors. All earthly wants — food, beauty, music, companionship — are provided in their most perfected forms. However, Svarga is not the final destination. When the accumulated merit (Punya) that earned entry is exhausted, the soul returns to earth for another cycle of rebirth, which is why the truly wise seek Moksha instead.',
+        entryCriteria: [
+            'Accumulation of great Punya (merit) through righteous deeds, charity, and sacrifice.',
+            'Performing prescribed Vedic rituals (Yajnas) and fulfilling one\'s Dharma.',
+            'Dying in battle or performing great acts of selfless service.'
+        ],
+        quote: { text: "Having enjoyed the vast paradise-world, they return to the mortal world when their merit is exhausted. Thus, following the three Vedas and desirous of pleasures, they obtain the transient.", source: "Bhagavad Gita 9:21" },
+        imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/e/e6/Krishna%27s_combat_with_Indra.jpg'
+    },
+    {
+        id: 'folkvangr',
+        name: 'Fólkvangr',
+        religion: 'Norse Mythology',
+        type: 'paradise',
+        shortDescription: 'The "Field of the People," Freyja\'s realm where she receives half the heroic dead.',
+        vividDescription: 'A vast, beautiful meadow ruled by the goddess Freyja from her hall Sessrúmnir ("Roomy-Seated"), which is said to have as many seats as she requires. It is a realm of warmth and beauty, in stark contrast to the martial grandeur of Valhalla. Freyja herself, clad in falcon feathers and amber, rides across the battlefield after each conflict alongside Odin\'s Valkyries, choosing her own half of the slain.',
+        experience: 'A gentler, more intimate form of heroic afterlife. The chosen warriors — the Einherjar who go to Freyja rather than Odin — dwell in beauty and festivity. Crucially, Freyja\'s right of first selection from the fallen is established before Odin\'s, making her, in some sense, the more primary chooser of the dead. The hall is a place of feasting and companionship without the relentless cycle of daily battle that defines Valhalla.',
+        entryCriteria: [
+            'Dying a courageous death in battle.',
+            'Being chosen by Freyja (who has first pick of the slain, before Odin\'s Valkyries).',
+            'Warriors of honor, particularly those devoted to love, beauty, or magic alongside valor.'
+        ],
+        quote: { text: "The ninth is Fólkvangr, where Freyja arranges the choice of seats in the hall; she chooses half the slain each day, and Óðinn has the other half.", source: "Grímnismál (Poetic Edda)" },
+        imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/8/8d/Freya_%281901%29_by_Anders_Zorn.jpg'
+    },
+    {
+        id: 'duat',
+        name: 'The Duat (Underworld)',
+        religion: 'Ancient Egyptian',
+        type: 'neutral',
+        shortDescription: 'The perilous Egyptian underworld through which every soul must navigate before judgment.',
+        vividDescription: 'A vast, terrifying realm that mirrors the geography of Egypt but in a reversed, nighttime form. It is divided into twelve regions corresponding to the twelve hours of the night, through which the sun-god Ra travels in his solar barque, temporarily illuminating the darkness before dawn. The landscape shifts constantly: rivers of fire, gates guarded by serpents, vast caverns of darkness, and fields of bliss exist side by side.',
+        experience: 'A dangerous gauntlet requiring knowledge, magic, and moral purity to navigate. The soul (Ba) must pass through a series of gates, each guarded by fearsome demons who demand the correct passwords from the Book of the Dead. Hostile forces — including the chaos serpent Apep — attempt to devour both the solar barque and the souls traveling through. The journey culminates in the Hall of Two Truths, where the heart is weighed against the feather of Ma\'at before Osiris. Failure means being eaten by Ammit.',
+        entryCriteria: [
+            'Possessing the spells and passwords from the Book of the Dead to pass each guarded gate.',
+            'The heart must not be too heavy with sin to survive the Weighing ceremony.',
+            'The soul must correctly identify itself and its deeds before the forty-two Assessors of Ma\'at.'
+        ],
+        quote: { text: "I am Yesterday and I am Today; and I have the power to be born a second time.", source: "Book of the Dead, Chapter 17" },
+        imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/5/5d/Osiris%2C_God_of_the_Dead.jpg'
+    },
+    {
+        id: 'bardo',
+        name: 'Bardo',
+        religion: 'Tibetan Buddhism',
+        type: 'neutral',
+        shortDescription: 'The luminous, terrifying intermediate state between death and rebirth.',
+        vividDescription: 'Not a place, but a state of consciousness — a profound, hallucinatory gap between death and the next incarnation lasting up to 49 days. In the immediate moment of death, a brilliant, blinding Clear Light of pure reality dawns. For those who recognize it, liberation is instant. For those who flinch from it, the consciousness enters increasingly vivid and terrifying visions: first, peaceful deities radiating blinding light appear alongside softer, more seductive lights that lead to rebirth. Then wrathful deities — blood-drinking, flame-wreathed, and skull-crowned — emerge. Both groups are manifestations of the mind itself.',
+        experience: 'A profoundly disorienting experience. The consciousness has no body and moves with the speed of thought. Familiar sounds, lights, and scenes from life flash by. The soul witnesses its own funeral. Karma generates hallucinations that can be either luminous and liberating or dark and terrifying. A skilled meditator, recognizing all phenomena as projections of mind, can achieve Nirvana on the spot. The untrained soul, overwhelmed by panic and craving, is pulled toward rebirth by the force of past karma.',
+        entryCriteria: [
+            'All beings pass through Bardo — it is not a destination one "qualifies" for, but an unavoidable transition.',
+            'The outcome depends entirely on spiritual preparation: recognizing the Clear Light as one\'s own mind achieves liberation.',
+            'Lamas may read the Bardo Thodol (Tibetan Book of the Dead) aloud to guide the dying consciousness.'
+        ],
+        quote: { text: "O nobly born, now the clear light of reality itself dawns upon you. Recognize it. O nobly born, your present awareness — vacant, naked — is itself the very Reality, the All-Good.", source: "Bardo Thodol (Tibetan Book of the Dead)" },
+        imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/8/8c/Yama%2C_the_Lord_of_Death%2C_holding_the_Wheel_of_Life_Wellcome_V0017705.jpg'
+    },
+    {
+        id: 'nastrond',
+        name: 'Náströnd',
+        religion: 'Norse Mythology',
+        type: 'punishment',
+        shortDescription: 'The "Shore of Corpses," the darkest hall in Hel for oath-breakers and murderers.',
+        vividDescription: 'A hall far within Niflheim, whose doors face north to maximize the cold. The walls and roof are woven not from timber but from writhing serpents, their heads turned inward, spraying venom in continuous streams that fill the floor with a hissing, poisonous river. The dragon Níðhöggr, vast and ancient, perpetually gnaws at the roots of Yggdrasil the World Tree from his position here, while simultaneously devouring the corpses of the damned.',
+        experience: 'Unceasing torment in icy, venomous darkness. The souls of murderers, oath-breakers, and those who seduced another man\'s wife wade through venom rivers. Níðhöggr sucks the blood of corpses and tears at bodies with his talons and beak. This is considered a place of genuine, terrible punishment within the otherwise merely gloomy Hel — a Norse hell-within-hell. It persists until Ragnarök, after which even Náströnd will be destroyed.',
+        entryCriteria: [
+            'Breaking sworn oaths (the gravest sin in Norse society, a violation of cosmic order).',
+            'Murder (manslaughter outside of honorable combat).',
+            'Seducing another man\'s wife — a violation of the sacred bonds of household and honor.'
+        ],
+        quote: { text: "A hall she saw standing far from the sun, on the Shore of Corpses, its door facing north; poison drops fall in through the roof-vents. That hall is woven of serpent-spines.", source: "Völuspá (Poetic Edda)" },
+        imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/b/b2/Nidhogg_Sebastian_Rubach_Swande.jpg'
+    },
+    {
         id: 'pure-land',
         name: 'Sukhavati (Pure Land)',
         religion: 'Mahayana Buddhism',
